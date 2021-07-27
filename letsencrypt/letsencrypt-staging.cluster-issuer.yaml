@@ -7,7 +7,7 @@ spec:
   acme:
     server: https://acme-staging-v02.api.letsencrypt.org/directory
     # Email address used for ACME registration
-    email: user@example.com
+    email: angelokurtis@users.noreply.github.com
     privateKeySecretRef:
       name: letsencrypt-staging
     solvers:
