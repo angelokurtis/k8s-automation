@@ -1,0 +1,6 @@
+resources:
+  - ../../base
+patches:
+  - target:
+      kind: ClusterIssuer
+    path: patch.yaml
