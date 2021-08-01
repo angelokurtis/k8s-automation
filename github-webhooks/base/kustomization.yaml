@@ -5,3 +5,4 @@ resources:
   - github.event-source.yaml
   - github.sensor.yaml
   - github-access.sealed-secret.yaml
+  - github-eventsource.ingress.yaml
