@@ -9,7 +9,7 @@ metadata:
   name: github-eventsource
 spec:
   rules:
-    - host: eventsource-8ac5e173.nip.io
+    - host: eventsource-8ac5e13d.nip.io
       http:
         paths:
           - backend:
@@ -21,5 +21,5 @@ spec:
             pathType: Prefix
   tls:
     - hosts:
-        - eventsource-8ac5e173.nip.io
+        - eventsource-8ac5e13d.nip.io
       secretName: github-eventsource-cert
